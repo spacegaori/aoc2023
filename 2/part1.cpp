@@ -3,9 +3,7 @@
 #include <iostream>
 #include <cstddef>
 #include <string>
-#include <string_view>
 #include <sstream>
-#include <vector>
 
 bool isPossible(int red, int green, int blue) {
     if (red > 12 || green > 13 || blue > 14) return false;

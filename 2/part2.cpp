@@ -3,9 +3,7 @@
 #include <iostream>
 #include <cstddef>
 #include <string>
-#include <string_view>
 #include <sstream>
-#include <vector>
 
 int main() {
     std::ifstream inf{ "input.txt" };
